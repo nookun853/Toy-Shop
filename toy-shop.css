@@ -1,0 +1,182 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.carousel-inner{
+  width: 1400px;
+  height: 600px;
+  margin-top: 40px;
+}
+
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+
+.cards{
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  width: 100%;
+  display: inline-block;
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+.menu{
+  float: left;
+  width: 200px;
+  height: 100%;
+  margin-top: 20px;
+  border: 0.2px gray solid;
+}
+
+.card-img-top{
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  width: 256px;
+  height: 256px;
+}
+
+.card h5{
+  text-align: left;
+  font-size: 16px;
+}
+
+.tieu-de{
+  width: 1400px;
+  height: 120px;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.tieu-de img{
+  width: 1400px;
+  height: 100%;
+  border-radius: 7px;
+}
+
+.tieu-de h3{
+  position: absolute;
+  bottom: 35px;
+  left: 16px;
+}
+
+.card p{
+  text-align: right;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.card a{
+  text-align: center;
+  width: 100%;
+}
+
+.footer{
+  width: 100%;
+  height: 400px;
+  background-color: #f8f8f8;
+  margin-top: 2300px;
+}
+
+.footer-tren{
+  display: inline-block;
+  width: 60%;
+  margin-left: 330px;
+  margin-top: 20px;
+}
+
+.footer img{
+  height: 54px;
+  width: 56px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.email{
+  float: left;
+  margin-right: 120px;
+}
+
+.ban-do{
+  float: left;
+  margin-right: 120px;
+}
+
+.don-hang{
+  float: left;
+}
+
+hr{
+  width: 55%;
+}
+
+.footer-duoi{
+  display: inline-block;
+}
+
+.dich-vu{
+  width: 180px;
+  text-align: left;
+  float: left;
+  margin-left: 350px;
+  margin-right: 40px;
+}
+
+.dich-vu a{
+  font-weight: 400;
+}
+
+.mua-sam{
+  float: left;
+  margin-left: 100px;
+  text-align: left;
+  margin-right: 40px;
+}
+
+.mua-sam a{
+  font-weight: 400;
+}
+
+.tinh-nang{
+  float: left;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.tinh-nang a{
+  font-weight: 400;
+}
+/*  HOVER */
+
+.card-img-top:hover{
+  cursor: pointer;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.footer a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: #006db7;
+}
+
+.email, .ban-do, .don-hang:hover{
+  cursor: pointer;
+}
+
+/*  CHECKBOX  */
